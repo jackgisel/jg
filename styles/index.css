@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+}
+
+.hero {
+  background-image: url(../public/assets/background.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.half_background {
+  background: linear-gradient(to top, rgba(229, 62, 62) 50%, transparent 50%);
+}
