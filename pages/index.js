@@ -1,8 +1,8 @@
-import { Container, Button } from "../componets";
+import { Button } from "../componets";
 
 const Home = () => {
   return (
-    <Container>
+    <>
       <div id="hero" className="flex justify-center">
         <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row max-w-3xl hero shadow-lg rounded-lg p-3 my-8 items-center">
           <div className="flex flex-col m-5 items-center">
@@ -120,7 +120,7 @@ const Home = () => {
           <img className="h-20 m-2" src="./assets/tech/sqlite.png" />
         </div>
       </div>
-    </Container>
+    </>
   );
 };
 

@@ -1,8 +1,6 @@
-import { Container } from "../componets";
-
 const Experience = () => {
   return (
-    <Container>
+    <>
       <div id="experience" className="flex flex-col">
         <h1 className="text-center italic font-bold uppercase text-6xl half_background mb-6">
           Experience
@@ -160,7 +158,7 @@ const Experience = () => {
         </div>
         {/* END LYTE */}
       </div>
-    </Container>
+    </>
   );
 };
 

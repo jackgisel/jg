@@ -11,6 +11,9 @@ const Header = () => {
         <li className="p-2">
           <a href="/experience">Experience</a>
         </li>
+        <li className="p-2">
+          <a href="/blog">Blog</a>
+        </li>
       </ul>
     </nav>
   );
