@@ -2,10 +2,10 @@ function BlogPostPage(props) {
   return (
     <div className="flex justify-center">
       <div className="flex flex-col max-w-xl">
-        <h1 className="text-center italic font-bold uppercase text-6xl half_background mb-6">
+        <h1 className="text-center italic font-bold uppercase text-5xl half_background mb-6 p-2">
           {props.blog.title}
         </h1>
-        <h3 className="text-center -mt-10 text-white">{props.blog.date}</h3>
+        <h3 className="text-center -mt-12 text-white">{props.blog.date}</h3>
         <section
           className="blog-post"
           dangerouslySetInnerHTML={{ __html: props.blog.content }}

@@ -10,11 +10,20 @@ const Blog = (props) => {
         <div className="flex-1 flex flex-col max-w-xl">
           {props.blogs?.map((blog, idx) => {
             return (
-              <li key={blog.id}>
+              <div className="cursor-pointer mb-12" key={blog.id}>
                 <Link href={`/blog/${blog.slug}`}>
-                  <a>{blog.title}</a>
+                  <div className="flex">
+                    <img className="w-56" src={blog.image} />
+                    <div className="m-3">
+                      <div className="flex justify-between mb-2">
+                        <a className="font-semibold text-xl">{blog.title}</a>
+                        <h2 className="underline">{blog.date}</h2>
+                      </div>
+                      <p>{blog.description}</p>
+                    </div>
+                  </div>
                 </Link>
-              </li>
+              </div>
             );
           })}
         </div>

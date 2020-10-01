@@ -18,13 +18,16 @@ body {
 
 .blog-post > h1 {
   font-size: 5rem;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 .blog-post > h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
+  font-weight: 700;
   padding-bottom: 0.5rem;
 }
 .blog-post > h3 {
   font-size: 2.5rem;
+  font-weight: 700;
   padding-bottom: 0.2rem;
 }
