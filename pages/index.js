@@ -71,16 +71,16 @@ const Home = () => {
           </div>
           <img
             className="h-64 m-1 rounded-lg shadow-md"
-            alt="Jack on computer at an early age"
-            src="/assets/2013.jpg"
+            alt="Jack at Stanford"
+            src="/2013.jpg"
           />
         </div>
 
         <div className="flex items-center px-12 flex-col sm:flex-col md:flex-row lg:flex-row sm:my-4 md:my-4">
           <img
             className="h-64 m-1 rounded-lg shadow-md"
-            alt="Jack on computer at an early age"
-            src="./assets/2017.png"
+            alt="Jack at san jose state"
+            src="/assets/2017.png"
           />
           <div className="flex-1 xs:m-2 sm:m-3 md:m-3 lg:m-10">
             <div className="flex items-center justify-between pb-3">
