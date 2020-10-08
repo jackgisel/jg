@@ -6,6 +6,15 @@ const Experience = () => {
           Experience
         </h1>
 
+        <div className="flex justify-center">
+          <a
+            className="font-semibold underline text-red-700"
+            href="/JackGiselResume.pdf"
+          >
+            Looking for my resume?
+          </a>
+        </div>
+
         {/* NEXUS */}
         <div id="nexus" className="flex justify-center">
           <div className="flex-1 flex max-w-xl">
@@ -26,20 +35,21 @@ const Experience = () => {
                   networking company by using NextJS, React and React Native
                 </li>
                 <li>
-                  Independently built a highly scalable architecture with an
-                  average cost per user of $0.0005/m
+                  Independently designed and built a highly scalable
+                  architecture with an average cost per user of $0.0005/m
+                  through NoSQL and serverless functions
                 </li>
                 <li>
                   Architectured a NoSQL and serverless backend to optimize for
                   speed and scalability for the 10,000 users
                 </li>
                 <li>
-                  Implemented a NFC protocol to efficiently share profile data
+                  Implemented NFC protocol to efficiently share profile data
                   between users by leveraging Universal Linking
                 </li>
                 <li>
-                  Created the Shopify ecommerce landing page using Bootstrap,
-                  SCSS and vanilla Javascript
+                  Created the Shopify ecommerce landing page boosting load speed
+                  19% by using Bootstrap, SCSS, and vanilla Javascript
                 </li>
               </ul>
             </div>
@@ -63,20 +73,21 @@ const Experience = () => {
               <h3>Full Stack Engineer</h3>
               <ul className="m-5 list-disc">
                 <li>
-                  Building a mobile app directed to helping customers get out of
-                  debt for many different screen sizes by using React Native,
-                  AWS Lambda, Firebase and ExpressJS
+                  Building a mobile app focused on consumer debt payoff using
+                  React Native, AWS Lambda, Firebase, and ExpressJS
                 </li>
                 <li>
-                  Developing an algorithm for debt payoff saving users on
+                  Developing an algorithm for debt payoff, saving users on
                   average $2,210.98 by using preformant data structures
                 </li>
                 <li>
-                  Creating a debt forecasting tool to predict payment completion
+                  Constructing actionable screens with data visualization to aid
+                  in the understanding of personal finance
                 </li>
                 <li>
-                  Constructing informative screens with data visualization to
-                  aid in the understanding of personal finance for our customers
+                  Integrated an application monitoring and session replay system
+                  capturing over 90 bugs, helping our team develop quicker and
+                  more focused
                 </li>
               </ul>
             </div>
@@ -100,20 +111,20 @@ const Experience = () => {
               <h3>Software Engineer Intern</h3>
               <ul className="m-5 list-disc">
                 <li>
-                  Building a mobile app directed to helping customers get out of
-                  debt for many different screen sizes by using React Native,
-                  AWS Lambda, Firebase and ExpressJS
+                  Developed a physician management component using test-driven
+                  development, React, and Ruby on Rails
                 </li>
                 <li>
-                  Developing an algorithm for debt payoff saving users on
-                  average $2,210.98 by using preformant data structures
+                  Assisted in a PR “war room” effort managing over 60 PRs while
+                  the CI/CD infrastructure was unstable
                 </li>
                 <li>
-                  Creating a debt forecasting tool to predict payment completion
+                  Built an understanding of microservice architecture using
+                  services like Docker and Kubernetes
                 </li>
                 <li>
-                  Constructing informative screens with data visualization to
-                  aid in the understanding of personal finance for our customers
+                  Lead agile development meetings within my team and
+                  demonstrated new features in company wide meetings
                 </li>
               </ul>
             </div>
@@ -137,20 +148,16 @@ const Experience = () => {
               <h3>Software Developer Intern</h3>
               <ul className="m-5 list-disc">
                 <li>
-                  Building a mobile app directed to helping customers get out of
-                  debt for many different screen sizes by using React Native,
-                  AWS Lambda, Firebase and ExpressJS
+                  Built a web based collaborative text editor for small teams
+                  using React, MobX, Firebase, and CSS
                 </li>
                 <li>
-                  Developing an algorithm for debt payoff saving users on
-                  average $2,210.98 by using preformant data structures
+                  Developed a push notification system for 100’s of daily
+                  notifications using NodeJS and Firebase Cloud functions
                 </li>
                 <li>
-                  Creating a debt forecasting tool to predict payment completion
-                </li>
-                <li>
-                  Constructing informative screens with data visualization to
-                  aid in the understanding of personal finance for our customers
+                  Learned Javascript best practices by collaborating with other
+                  developers in a remote setting
                 </li>
               </ul>
             </div>

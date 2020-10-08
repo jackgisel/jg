@@ -23,7 +23,7 @@ const Home = () => {
           <img
             alt="Picture of Jack"
             className="flex-1 h-64 m-1 rounded-lg shadow-md"
-            src="./assets/headshot.jpg"
+            src="/assets/headshot.jpg"
             style={{ marginRight: -50 }}
           />
         </div>
@@ -37,7 +37,7 @@ const Home = () => {
           <img
             className="h-64 m-1 rounded-lg shadow-md"
             alt="Jack on computer at an early age"
-            src="./assets/2004.jpg"
+            src="/assets/2004.jpg"
           />
           <div className="flex-1 xs:m-2 sm:m-3 md:m-3 lg:m-10">
             <div className="flex items-center justify-between pb-3">
@@ -45,11 +45,11 @@ const Home = () => {
               <h4 className="underline">June 2004</h4>
             </div>
             <p>
-              At an early age I *adopted an extreme curiosity for how things
-              worked. My dad being an engineer and handy man, I followed him
-              around watching him and asking millions of questions. Because my
-              size and strength I wasn't allowed to use the hand saw alone, I
-              began taking to the computer. I started learning how to manipulate
+              At an early age I grew an extreme curiosity for how things worked.
+              My dad being an engineer and handy man, I followed him around
+              watching him and asking millions of questions. Because my size and
+              strength I wasn't allowed to use the hand saw alone, I began
+              taking to the computer. I started learning how to manipulate
               Windows to make it faster and started solving the families IT
               problems.
             </p>
@@ -72,7 +72,7 @@ const Home = () => {
           <img
             className="h-64 m-1 rounded-lg shadow-md"
             alt="Jack on computer at an early age"
-            src="./assets/2013.jpg"
+            src="/assets/2013.jpg"
           />
         </div>
 
@@ -107,17 +107,17 @@ const Home = () => {
           Tech
         </h1>
         <div className="flex flex-wrap justify-center">
-          <img className="h-20 m-2" src="./assets/tech/aws.png" />
-          <img className="h-20 m-2" src="./assets/tech/docker.png" />
-          <img className="h-20 m-2" src="./assets/tech/firebase.png" />
-          <img className="h-20 m-2" src="./assets/tech/java.jpg" />
-          <img className="h-20 m-2" src="./assets/tech/js.png" />
-          <img className="h-20 m-2" src="./assets/tech/mysql.png" />
-          <img className="h-20 m-2" src="./assets/tech/rails.png" />
-          <img className="h-20 m-2" src="./assets/tech/react-native.jpg" />
-          <img className="h-20 m-2" src="./assets/tech/react.png" />
-          <img className="h-20 m-2" src="./assets/tech/redux.png" />
-          <img className="h-20 m-2" src="./assets/tech/sqlite.png" />
+          <img className="h-20 m-2" src="/assets/tech/aws.png" />
+          <img className="h-20 m-2" src="/assets/tech/docker.png" />
+          <img className="h-20 m-2" src="/assets/tech/firebase.png" />
+          <img className="h-20 m-2" src="/assets/tech/java.jpg" />
+          <img className="h-20 m-2" src="/assets/tech/js.png" />
+          <img className="h-20 m-2" src="/assets/tech/mysql.png" />
+          <img className="h-20 m-2" src="/assets/tech/rails.png" />
+          <img className="h-20 m-2" src="/assets/tech/react-native.jpg" />
+          <img className="h-20 m-2" src="/assets/tech/react.png" />
+          <img className="h-20 m-2" src="/assets/tech/redux.png" />
+          <img className="h-20 m-2" src="/assets/tech/sqlite.png" />
         </div>
       </div>
     </>
